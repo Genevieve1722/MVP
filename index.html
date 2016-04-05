@@ -3,14 +3,18 @@
 <head>
   <script src="node_modules/angular/angular.js"></script>
   <script src="app.js"></script>
+  <script src='data.js'></script>
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 
-<body>
-  <h1 ng-controller='IdeasController'>MVP Idea Generator</h1>
+<body ng-controller='IdeasController'>
+  <h1>MVP Idea Generator</h1>
   <div>
     <div>
       <button ng-click='generateIdea()'>What Should I Build?</button>
+        <div class='idea' ng-show="nextIdea">{{nextIdea}}</div>
+        <div class='inspired'>Inspired by:</div>
+        <img class='image' src='MB.jpg'>
     </div>
   </div>
 </body>

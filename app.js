@@ -22,10 +22,10 @@ angular.module('app', [])
   console.log('app.js was loaded');
 
   $scope.generateIdea = function() {
-    console.log('generate idea called');
-    // var tech = $scope.technologies[Math.floor(Math.random()*$scope.technologies.length)];
-    // var audiences = $scope.audiences[Math.floor(Math.random()*$scope.audiences.length)];
-    // return tech + ', but for ' + audiences;
+    var tech = technologies[Math.floor(Math.random()*technologies.length)];
+    var audience = audiences[Math.floor(Math.random()*audiences.length)];
+    $scope.nextIdea = tech + ', but for ' + audience;
+    console.log($scope.nextIdea);
   }
 
 
