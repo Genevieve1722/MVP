@@ -4,5 +4,5 @@ var technologies = ['Tinder', 'Avalon', 'Google Maps', 'Waze', 'Facebook',
 'LinkedIn', 'Github', 'Stack Overflow', 'Strava', 'Square', 'eBay', 'Shazam']
 
 var audiences = ['missing socks', 'grandparents', 'kids', 'cats', 'dogs', 
-'grey animals', '6th floor', 'Tenderloin residents', 'Dodgers fans', 'east coasters',
+'grey animals', '6th floor', 'Tenderloin residents', 'Dodgers fans',
 'friends', 'enemies', 'rednecks', 'bros']
